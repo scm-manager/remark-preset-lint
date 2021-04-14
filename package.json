@@ -1,6 +1,6 @@
 {
   "name": "@scm-manager/remark-preset-lint",
-  "version": "1.0.0-SNAPSHOT",
+  "version": "1.0.0",
   "description": "Remark-lint configuration for scm-manager and its plugins",
   "main": "src/index.js",
   "repository": "git@github.com:scm-manager/remark-preset-lint.git",
