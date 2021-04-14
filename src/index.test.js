@@ -1,8 +1,8 @@
 const path = require("path");
-const config = require("./index")
 const remark = require("remark");
 const { readFileSync } = require("fs");
 const remarkLint = require("remark-lint");
+const config = require("./index");
 
 const resource = path.join(__dirname, "__resources__");
 
@@ -23,7 +23,7 @@ const expectContains = (results, ...ids) => {
 describe("should lint markdown", () => {
   it("should output correct errors", async () => {
     const errors = await lint("markdown.md");
-    expectContains(errors, "list-item-indent", "no-undefined-references")
+    expectContains(errors, "list-item-indent", "no-undefined-references");
   });
 });
 
