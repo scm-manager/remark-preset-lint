@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": "git@github.com:scm-manager/remark-preset-lint.git",
   "author": "SCM-Team <scm-team@cloudogu.com>",
-  "license": "MIT",
+  "license": "AGPL-3.0-only",
   "private": false,
   "scripts": {
     "check": "eslint src",
